@@ -2,8 +2,7 @@ import { codes, editorials, problems, problemsApi } from "./utils";
 import { taskID } from "./utils/parser";
 
 /**
- * 最初に実行される部分 \
- * 共通の処理を実行した後ページごとの処理を実行する
+ * 最初に実行される部分
  */
 (() => {
   const h2 = document.getElementsByClassName("h2")[0] as HTMLElement;
