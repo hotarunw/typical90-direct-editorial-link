@@ -1,6 +1,6 @@
 {
   "name": "typical90-direct-editorial-link",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "競プロ典型 90 問に解説リンク（Twitter）を追加する",
   "typeRoots": [
     "types",
