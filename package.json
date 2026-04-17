@@ -20,23 +20,23 @@
     "url": "https://github.com/hotarunx/typical90-direct-editorial-link/issues"
   },
   "devDependencies": {
-    "@rollup/plugin-typescript": "^11.1.5",
-    "@types/tampermonkey": "^4.20.4",
-    "@typescript-eslint/eslint-plugin": "^6.8.0",
-    "@typescript-eslint/parser": "^6.8.0",
-    "eslint": "^8.52.0",
-    "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-prettier": "^9.0.0",
-    "eslint-plugin-html": "^7.1.0",
-    "eslint-plugin-prettier": "^5.0.1",
-    "jest": "^29.7.0",
-    "prettier": "^3.0.3",
-    "rollup": "^4.60.0",
-    "rollup-plugin-html": "^0.2.1",
+    "@rollup/plugin-html": "^2.0.0",
+    "@rollup/plugin-typescript": "^12.3.0",
+    "@types/tampermonkey": "^5.0.5",
+    "@typescript-eslint/eslint-plugin": "^8.58.2",
+    "@typescript-eslint/parser": "^8.58.2",
+    "eslint": "^10.2.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-html": "^8.1.4",
+    "eslint-plugin-prettier": "^5.5.5",
+    "prettier": "^3.8.3",
+    "rollup": "^4.60.1",
     "rollup-plugin-node-resolve": "^5.2.0",
-    "rollup-plugin-scss": "^4.0.0",
-    "sass": "^1.69.4",
-    "ts-jest": "^29.1.1",
-    "typescript": "^5.2.2"
+    "rollup-plugin-scss": "^4.0.1",
+    "sass": "^1.99.0",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "tslib": "^2.8.1"
   }
 }

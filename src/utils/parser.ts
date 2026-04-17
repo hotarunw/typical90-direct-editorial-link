@@ -21,7 +21,7 @@ export const URL = parseURL(window.location.href);
 const searchSubmissionInfo = (key: string[]) => {
   const tdTags = document.getElementsByTagName("td");
   const tdTagsArray = Array.prototype.slice.call(
-    tdTags
+    tdTags,
   ) as HTMLTableCellElement[];
 
   return tdTagsArray.filter((elem) => {

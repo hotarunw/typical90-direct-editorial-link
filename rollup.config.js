@@ -1,10 +1,10 @@
 /* eslint-disable @typescript-eslint/no-unsafe-call */
 /* eslint-disable @typescript-eslint/no-unsafe-member-access */
 /* eslint-disable @typescript-eslint/restrict-template-expressions */
+import html from "@rollup/plugin-html";
 import typescript from "@rollup/plugin-typescript";
-import html from "rollup-plugin-html";
 import scss from "rollup-plugin-scss";
-import packageJson from "./package.json" assert { type: "json" };
+import packageJson from "./package.json" with { type: "json" };
 
 const userScriptBanner = `
 // ==UserScript==

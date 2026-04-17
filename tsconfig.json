@@ -1,11 +1,10 @@
 {
   "compilerOptions": {
-    "baseUrl": "./src/",
     "module": "ESNext",
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "strict": true,
     "noUncheckedIndexedAccess": true,
-    "target": "es2021",
+    "target": "ESNext",
     "typeRoots": ["types", "node_modules/@types"],
     "resolveJsonModule": true
   },
